@@ -1,0 +1,15 @@
+{
+  "name": "innocode-digital/wp-version",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "description": "Simple versioning for WordPress.",
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Innocode\\Version\\": "src/"
+    }
+  }
+}
